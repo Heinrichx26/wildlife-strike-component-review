@@ -1,0 +1,7 @@
+﻿component_group,records_checked,wildlife_evidence_rate,component_term_support,phase_agreement,size_agreement,severity_rule_agreement,overall_mapping_agreement,direct_text_eligible
+engine,20,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+wing-rotor,20,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+windshield,20,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+other named component,20,1.0,1.0,1.0,1.0,1.0,1.0,1.0
+residual component,20,1.0,0.0,1.0,1.0,1.0,1.0,0.0
+all,100,1.0,0.8,1.0,1.0,1.0,1.0,0.8

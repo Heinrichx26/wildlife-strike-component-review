@@ -1,0 +1,19 @@
+﻿dictionary,target,terms,rule
+Wildlife extraction,wildlife-related NTSB record,bird; bird strike; birds; birdstrike; coyote; deer; duck; eagle; elk; geese; goose; gull; hawk; moose; turkey; vulture; waterfowl; wildlife,A record enters the external set when any term appears in narrative or finding text.
+Large animal-size mapping,large,deer; geese; goose; vulture; coyote; large bird; flock,Large terms override medium terms when both are present.
+Medium animal-size mapping,medium,hawk; duck; gull; bird,Medium terms are used when no large term is present.
+Component mapping,engine,engine; eng ; turbofan; fan blade; inlet; nacelle; ingest; ingestion; compressor,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,windshield,windshield; windscreen; wind screen,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,wing rotor,wing; rotor; slat; flap; aileron; leading edge,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,landing gear,landing gear; gear; strut; brake,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,fuselage,fuselage; airframe; skin,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,tail,tail; stabilizer; rudder; empennage; elevator,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,nose,nose; radar dome,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,radome,radome,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,propeller,propeller; prop ,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Component mapping,lights,landing light; taxi light; navigation light; beacon light,Engine is assigned first when engine terms are present; otherwise the first component hit is used.
+Phase mapping,departure,takeoff; take-off; initial climb; climb; departure; takeoff roll; departed,The first phase bucket with a matched term is used.
+Phase mapping,arrival,landing; approach; final; flare; touchdown; descent; landed,The first phase bucket with a matched term is used.
+Phase mapping,ground,taxi; runway; landing roll,The first phase bucket with a matched term is used.
+Phase mapping,en route,en route; cruise,The first phase bucket with a matched term is used.
+Aircraft mass class,mass class,certificated maximum gross weight,Weight in pounds is converted to kilograms and mapped to FAA mass classes 1--5.

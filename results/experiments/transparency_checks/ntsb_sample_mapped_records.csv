@@ -1,0 +1,21 @@
+﻿ev_id,year,damage,severe,component,phase,size,mass,engine_text
+20080417X00508,2008,SUBS,yes,engine,arrival,LARGE,1,yes
+20080123X00090,2008,SUBS,yes,engine,departure,MEDIUM,1,yes
+20150210X11721,2015,SUBS,yes,engine,ground,UNKNOWN,2,yes
+20100503X31325,2010,SUBS,yes,engine,unknown,MEDIUM,UNKNOWN,yes
+20170427X20409,2017,SUBS,yes,fuselage,arrival,LARGE,2,no
+20090707X53355,2009,SUBS,yes,fuselage,departure,LARGE,3,no
+20110606X81413,2011,SUBS,yes,landing gear,arrival,LARGE,UNKNOWN,no
+20100630X30344,2010,MINR,yes,landing gear,departure,LARGE,UNKNOWN,no
+20170824X42626,2017,,yes,nose,arrival,UNKNOWN,4,no
+20140711X04435,2014,SUBS,yes,propeller,departure,MEDIUM,UNKNOWN,no
+20100409X22252,2010,SUBS,yes,propeller,unknown,UNKNOWN,UNKNOWN,no
+20141107X83721,2014,SUBS,yes,radome,arrival,LARGE,2,no
+20100805X95630,2010,SUBS,yes,tail,arrival,LARGE,1,no
+20101019X41128,2010,SUBS,yes,tail,departure,LARGE,1,no
+20090204X65300,2009,SUBS,yes,windshield,arrival,LARGE,UNKNOWN,no
+20100407X94230,2010,SUBS,yes,windshield,departure,MEDIUM,2,no
+20100426X43553,2010,SUBS,yes,windshield,en route,LARGE,2,no
+20171118X22836,2017,SUBS,yes,windshield,unknown,MEDIUM,1,no
+20080220X00211,2008,SUBS,yes,wing rotor,arrival,MEDIUM,1,no
+20080428X00560,2008,SUBS,yes,wing rotor,departure,UNKNOWN,1,no

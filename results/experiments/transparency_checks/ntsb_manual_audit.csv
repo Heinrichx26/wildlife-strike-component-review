@@ -1,0 +1,2 @@
+﻿audit_set,records_checked,component_mismatches,estimated_misclassification_rate,note
+displayed-record consistency audit,30,0,0.0,The audit checks whether displayed sample fields satisfy the declared mapping logic.

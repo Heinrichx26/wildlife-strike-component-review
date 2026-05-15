@@ -1,0 +1,12 @@
+﻿component_family,terms,priority
+engine,engine; eng ; turbofan; fan blade; inlet; nacelle; ingest; ingestion; compressor,first
+windshield,windshield; windscreen; wind screen,after engine priority
+wing rotor,wing; rotor; slat; flap; aileron; leading edge,after engine priority
+landing gear,landing gear; gear; strut; brake,after engine priority
+fuselage,fuselage; airframe; skin,after engine priority
+tail,tail; stabilizer; rudder; empennage; elevator,after engine priority
+nose,nose; radar dome,after engine priority
+radome,radome,after engine priority
+propeller,propeller; prop ,after engine priority
+lights,landing light; taxi light; navigation light; beacon light,after engine priority
+residual component,No listed component-family term is present.,all-mapped sensitivity

@@ -1,0 +1,5 @@
+﻿experiment,score,budget_share,target,test_years,test_component_records,target_records,selected_component_records,captured_target_records,pooled_capture_rate,pooled_selected_target_rate,pooled_lift,mean_annual_lift
+score_shuffle,component_phase_size_mass_rate,0.05,part_damage,31,273838,22992,13706,1139,0.049538970076548366,0.08310229096745951,0.9897601406553226,0.9867768280453496
+score_shuffle,component_phase_size_mass_rate,0.1,part_damage,31,273838,22992,27395,2271,0.09877348643006263,0.08289833911297682,0.9873310449730057,0.9853609360391927
+test_label_shuffle,component_phase_size_mass_rate,0.05,part_damage,31,273838,22992,13706,1125,0.048930062630480164,0.0820808405078068,0.9775945199624564,0.9815058956176269
+test_label_shuffle,component_phase_size_mass_rate,0.1,part_damage,31,273838,22992,27395,2314,0.1006437021572721,0.08446796860741011,1.0060255561724065,1.008252893200622
