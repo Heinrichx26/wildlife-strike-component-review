@@ -1,0 +1,44 @@
+﻿dictionary,category,pattern
+wildlife,bird,\bbirds?\b|\bbird[- ]?strike\b
+wildlife,wildlife,\bwildlife\b
+wildlife,ingestion,\bingest(?:ed|ion)?\b
+wildlife,goose_geese,\bgoose\b|\bgeese\b
+wildlife,gull,\bgulls?\b
+wildlife,raptor,\bhawk\b|\beagle\b|\bvulture\b
+wildlife,mammal,\bdeer\b|\bcoyote\b|\belk\b|\bmoose\b
+component,engine,\bengine\b
+component,engine,\bturbofan\b
+component,engine,\bfan blade\b
+component,engine,\bcompressor\b
+component,engine,\binlet\b
+component,engine,\bnacelle\b
+component,engine,\bingest(?:ed|ion)?\b
+component,windshield,\bwindshield\b
+component,windshield,\bwindscreen\b
+component,windshield,\bwind screen\b
+component,wing_rotor,\bwing\b
+component,wing_rotor,\brotor\b
+component,wing_rotor,\bflap\b
+component,wing_rotor,\bslat\b
+component,wing_rotor,\baileron\b
+component,wing_rotor,\bleading edge\b
+component,radome,\bradome\b
+component,radome,\bradar dome\b
+component,nose,\bnose\b
+component,landing_gear,\blanding gear\b
+component,landing_gear,\bgear\b
+component,landing_gear,\bstrut\b
+component,landing_gear,\bbrake\b
+component,fuselage,\bfuselage\b
+component,fuselage,\bairframe\b
+component,fuselage,\bskin\b
+component,tail,\btail\b
+component,tail,\bstabilizer\b
+component,tail,\brudder\b
+component,tail,\belevator\b
+component,tail,\bempennage\b
+component,propeller,\bpropeller\b
+component,propeller,\bprop\b
+component,lights,\blight\b
+component,lights,\blamp\b
+component,lights,\bbeacon\b

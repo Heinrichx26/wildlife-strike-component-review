@@ -1,4 +1,4 @@
-from __future__ import annotations
+﻿from __future__ import annotations
 
 import csv
 import math
@@ -259,19 +259,19 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
         and row["target"] in {"part_damage", "event_hard"}
     ]
     lines = [
-        "# FAA Wildlife Strike 部件复核滚动验证",
+        "# FAA wildlife strike component review rolling validation",
         "",
-        "## 复核设置",
+        "## Review setting",
         "",
-        "- 数据范围：1990-2025 年作为主验证样本，2026 年因公开记录仅到 2026-04-13，暂作后续更新窗口。",
-        "- 验证方式：用前 5 年训练，预测下一年；测试年份为 1995-2025 年。",
-        "- 复核预算：按部件级记录排序，只复核最高风险的 5% 或 10%。",
-        "- 目标一：part_damage，表示被撞部件实际出现损伤。",
-        "- 目标二：event_hard，表示同一事件出现损伤、成本、停场、飞行影响、受伤或死亡任一硬结果。",
+        "- Data window: 1990-2025 records are used for the main rolling validation.",
+        "- Validation design: the previous five years train each next-year selected set, with test years 1995-2025.",
+        "- Review budgets: the ranked list selects the highest-risk 5% or 10% of component-family units.",
+        "- Primary target: part_damage indicates observed same-report component damage.",
+        "- Supporting target: event_hard indicates event-level damage, cost, downtime, flight effect, injury, or fatality.",
         "",
-        "## 滚动验证汇总",
+        "## Rolling validation summary",
         "",
-        "| 目标 | 排序规则 | 预算 | 捕获结果 | 覆盖率 | 选中命中率 | 总体命中率 | 提升倍数 |",
+        "| Target | Ranking rule | Budget | Captured | Capture | Selected hit rate | Overall hit rate | Lift |",
         "|---|---|---:|---:|---:|---:|---:|---:|",
     ]
     order = {
@@ -292,11 +292,11 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
 
     lines.extend([
         "",
-        "## 反事实复核结果",
+        "## Counterfactual review results",
         "",
-        "下表只统计部件转化排序会复核、历史高频排序不会复核的部件级记录。它回答的问题是：在同样复核预算下，若按高频撞击安排复核，会漏掉哪些未来损伤。",
+        "The table summarizes component-family units selected by the transition ranking and missed by the historical-frequency ranking under the same review budget.",
         "",
-        "| 部件 | 阶段 | 体型 | 航空器质量等级 | 新增复核记录 | 部件损伤 | 硬结果 | 成本 | 停场小时 |",
+        "| Component | Phase | Size | Aircraft mass class | Added records | Component damage | Event consequence | Cost | AOS hours |",
         "|---|---|---|---|---:|---:|---:|---:|---:|",
     ])
     for row in counter_summary[:15]:
@@ -308,9 +308,9 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
 
     lines.extend([
         "",
-        "## 高成本反事实样例",
+        "## High-cost counterfactual examples",
         "",
-        "| 年份 | 机场 | 航空器 | 部件 | 阶段 | 体型 | 物种 | 部件损伤 | 成本 | 停场小时 |",
+        "| Year | Airport | Aircraft | Component | Phase | Size | Species | Component damage | Cost | AOS hours |",
         "|---:|---|---|---|---|---|---|---:|---:|---:|",
     ])
     for row in added_examples[:10]:
@@ -322,11 +322,11 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
 
     lines.extend([
         "",
-        "## 当前判断",
+        "## Result interpretation",
         "",
-        "- 若部件转化排序在 31 个测试年份中持续高于高频排序和无部件排序，方案具备实质方法增量。",
-        "- 反事实结果可以自然写成同一复核预算下的漏检损伤和漏检成本，结果强度比单纯准确率更适合 AMAR。",
-        "- 下一步需要把复核框架形式化，并检查时间不稳定性，避免把滚动平均结果写成静态规律。",
+        "- Component transition ranking is evaluated against fixed-budget alternatives across rolling future years.",
+        "- Counterfactual sets summarize damage, cost, and downtime missed by frequency-based review under the same capacity.",
+        "- Rolling validation keeps training and test years separated before selected sets are evaluated.",
     ])
     return "\n".join(lines) + "\n"
 

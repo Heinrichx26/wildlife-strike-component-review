@@ -1,0 +1,9 @@
+﻿score,weather_stratum,budget_share,test_years,test_component_records,target_records,selected_component_records,captured_target_records,capture_rate,selected_target_rate,overall_target_rate,lift
+component_transition_score,adverse weather,0.05,1,90,5,5,2,0.4,0.4,0.05555555555555555,7.200000000000001
+component_transition_score,adverse weather,0.1,1,90,5,9,2,0.4,0.2222222222222222,0.05555555555555555,4.0
+component_transition_score,all matched,0.05,1,804,20,41,7,0.35,0.17073170731707318,0.024875621890547265,6.863414634146341
+component_transition_score,all matched,0.1,1,804,20,81,11,0.55,0.13580246913580246,0.024875621890547265,5.459259259259259
+component_transition_score,normal weather,0.05,1,714,15,36,5,0.3333333333333333,0.1388888888888889,0.02100840336134454,6.611111111111111
+component_transition_score,normal weather,0.1,1,714,15,72,8,0.5333333333333333,0.1111111111111111,0.02100840336134454,5.288888888888888
+weather_severity_only,all matched,0.05,1,804,20,41,1,0.05,0.024390243902439025,0.024875621890547265,0.9804878048780488
+weather_severity_only,all matched,0.1,1,804,20,81,5,0.25,0.06172839506172839,0.024875621890547265,2.4814814814814814

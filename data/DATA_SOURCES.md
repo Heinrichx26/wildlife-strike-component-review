@@ -33,3 +33,23 @@ Expected local file:
 - `data/raw/ntsb_avdata/avall/avall.mdb`
 
 External enrichment maps wildlife-related NTSB records to component-family cells. Dictionaries, mapping terms, sample records, bootstrap intervals, and audit summaries are under `results/experiments/transparency_checks/`.
+
+## FAA Service Difficulty Reporting system
+
+Source: https://av-info.faa.gov/sdrx/
+
+Expected local folder:
+
+- `data/raw/faa_sdr/`
+
+The maintenance-text validation extracts wildlife-related Service Difficulty Reporting records from public records and maps component text to the same component families used for the wildlife strike review units. Summary files are under `results/experiments/safety_science/`.
+
+## NOAA Global Hourly weather records
+
+Source: https://www.ncei.noaa.gov/products/land-based-station/global-hourly
+
+Expected local folder:
+
+- `data/raw/noaa_global_hourly/`
+
+The weather diagnostic uses complete matched airport-year files where available. It is reported as a small-sample control diagnostic, with summary files under `results/experiments/safety_science/`.

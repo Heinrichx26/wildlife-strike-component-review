@@ -1,0 +1,4 @@
+﻿high_risk_component_share,high_risk_components,mapped_sdr_records,wildlife_sdr_records,wildlife_records_in_high_risk_components,wildlife_capture_rate,all_record_high_risk_share,enrichment_odds_ratio
+0.2,engine;lights;tail,163498,800,475,0.59375,0.43025602759666787,1.934423451839661
+0.3,engine;lights;tail;wing_rotor,163498,800,557,0.69625,0.6956476531823019,1.0016954274145702
+0.4,engine;lights;propeller;tail;wing_rotor,163498,800,558,0.6975,0.696399955962764,1.0040538302046857
