@@ -631,7 +631,7 @@ def build_report(aggregate_rows: list[dict], negative_rows: list[dict], external
     for row in negative_rows:
         lines.append(f"| {row['experiment']} | {row['budget_share']:.0%} | {row['pooled_lift']:.2f} |")
 
-    lines.extend(["", "## NTSB external enrichment", "", "| Score | NWSD review share | External severe capture | External top share | Enrichment OR | Engine-text capture | Mass-class-4 capture |", "|---|---:|---:|---:|---:|---:|---:|"])
+    lines.extend(["", "## NTSB external consistency", "", "| Score | NWSD review share | External severe capture | External top share | Consistency OR | Engine-text capture | Mass-class-4 capture |", "|---|---:|---:|---:|---:|---:|---:|"])
     for row in external_rows:
         lines.append(
             f"| {row['score']} | {row['nw_review_share']:.0%} | {row['top_severe_records']:,}/{row['severe_records']:,} "

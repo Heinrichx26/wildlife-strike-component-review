@@ -20,7 +20,7 @@ from wildlife_component_data import component_rows  # noqa: E402
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "safety_science"
+RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "jsr_validation"
 NOAA_DIR = PROJECT_ROOT / "data" / "raw" / "noaa_global_hourly"
 ISD_HISTORY = PROJECT_ROOT / "data" / "raw" / "noaa_isd_history.csv"
 ISD_HISTORY_URL = "https://www.ncei.noaa.gov/pub/data/noaa/isd-history.csv"

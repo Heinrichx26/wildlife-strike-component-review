@@ -1,0 +1,3 @@
+﻿budget_share,matching_key,wildlife_records_with_match,matched_nonwildlife_records,wildlife_strict_selected_records,wildlife_strict_selected_share,wildlife_parent_selected_records,wildlife_parent_selected_share,matched_nonwildlife_parent_selected_records,matched_nonwildlife_parent_selected_share,parent_case_control_or
+0.05,component-phase-mass-year_band,1030,3058,102,0.09902912621359224,185,0.1796116504854369,553,0.18083714846304774,0.9931322475061928
+0.1,component-phase-mass-year_band,1030,3058,206,0.2,431,0.4184466019417476,1288,0.421190320470896,0.9890155520235302

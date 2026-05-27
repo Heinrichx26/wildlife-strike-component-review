@@ -16,7 +16,7 @@ from wildlife_component_data import component_rows  # noqa: E402
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "safety_science"
+RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "jsr_validation"
 MAIN_SCORE = "component_phase_size_mass_rate"
 TARGET = "part_damage"
 

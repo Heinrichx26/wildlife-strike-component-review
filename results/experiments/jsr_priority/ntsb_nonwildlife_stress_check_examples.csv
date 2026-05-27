@@ -1,0 +1,91 @@
+﻿ev_id,year,record_type,component,phase_bucket,aircraft_mass_class,size,damage,budget_share,external_set,specification
+20080702X00971,2008,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20080710X01012,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20080815X01251,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20081003X42134,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20081004X12039,2008,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20081015X50709,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20081022X34515,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20081104X35404,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20090512X31427,2009,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20100219X33356,2010,wildlife_serious,wing_rotor,departure,2,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20100317X83240,2010,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20101007X32553,2010,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20101020X92632,2010,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20101116X51712,2010,wildlife_serious,engine,departure,4,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20101125X55713,2010,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.05,wildlife serious direct text,strict component-phase-size-mass cell types
+20080220X00211,2008,wildlife_serious,wing_rotor,arrival,1,MEDIUM,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080227X00237,2008,wildlife_serious,engine,departure,2,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080311X00297,2008,wildlife_serious,engine,departure,2,LARGE,DEST,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080414X00465,2008,wildlife_serious,engine,departure,3,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080702X00971,2008,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080710X01012,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080815X01251,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080904X01375,2008,wildlife_serious,engine,departure,2,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20081003X42134,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20081004X12039,2008,wildlife_serious,wing_rotor,arrival,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20081015X50709,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20081022X34515,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20081104X35404,2008,wildlife_serious,wing_rotor,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20090115X73226,2009,wildlife_serious,engine,departure,UNKNOWN,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20090223X04221,2009,wildlife_serious,engine,arrival,2,LARGE,SUBS,0.1,wildlife serious direct text,strict component-phase-size-mass cell types
+20080123X00090,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080129X00116,2008,wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080210X00160,2008,wildlife_serious,engine,departure,1,MEDIUM,DEST,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080220X00211,2008,wildlife_serious,wing_rotor,arrival,1,MEDIUM,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080227X00237,2008,wildlife_serious,engine,departure,2,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080311X00297,2008,wildlife_serious,engine,departure,2,LARGE,DEST,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080313X00310,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080321X00349,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080321X00354,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080321X00356,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080322X00368,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,UNKNOWN,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080414X00465,2008,wildlife_serious,engine,departure,3,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080416X00500,2008,wildlife_serious,engine,departure,1,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080417X00508,2008,wildlife_serious,engine,arrival,1,LARGE,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080425X00551,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,MEDIUM,SUBS,0.05,wildlife serious direct text,wide component-phase-mass projection
+20080107X00026,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080109X00036,2008,non_wildlife_serious,wing_rotor,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080114X00044,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00046,2008,non_wildlife_serious,engine,arrival,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00047,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00051,2008,non_wildlife_serious,wing_rotor,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00052,2008,non_wildlife_serious,engine,arrival,UNKNOWN,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080116X00062,2008,non_wildlife_serious,engine,departure,2,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080116X00063,2008,non_wildlife_serious,engine,departure,2,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080117X00067,2008,non_wildlife_serious,engine,departure,3,UNKNOWN,DEST,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080117X00068,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00073,2008,non_wildlife_serious,engine,departure,4,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00073,2008,non_wildlife_serious,engine,departure,4,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00074,2008,non_wildlife_serious,wing_rotor,departure,2,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00075,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.05,non-wildlife serious direct text,wide component-phase-mass projection
+20080123X00090,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080129X00116,2008,wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080210X00160,2008,wildlife_serious,engine,departure,1,MEDIUM,DEST,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080220X00211,2008,wildlife_serious,wing_rotor,arrival,1,MEDIUM,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080227X00237,2008,wildlife_serious,engine,departure,2,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080311X00297,2008,wildlife_serious,engine,departure,2,LARGE,DEST,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080313X00310,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080321X00349,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080321X00354,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080321X00356,2008,wildlife_serious,engine,departure,1,MEDIUM,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080322X00368,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,UNKNOWN,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080414X00465,2008,wildlife_serious,engine,departure,3,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080416X00500,2008,wildlife_serious,engine,departure,1,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080417X00508,2008,wildlife_serious,engine,arrival,1,LARGE,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080425X00551,2008,wildlife_serious,wing_rotor,arrival,UNKNOWN,MEDIUM,SUBS,0.1,wildlife serious direct text,wide component-phase-mass projection
+20080107X00026,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080109X00036,2008,non_wildlife_serious,wing_rotor,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080114X00044,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00046,2008,non_wildlife_serious,engine,arrival,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00047,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00051,2008,non_wildlife_serious,wing_rotor,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080115X00052,2008,non_wildlife_serious,engine,arrival,UNKNOWN,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080116X00062,2008,non_wildlife_serious,engine,departure,2,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080116X00063,2008,non_wildlife_serious,engine,departure,2,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080117X00067,2008,non_wildlife_serious,engine,departure,3,UNKNOWN,DEST,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080117X00068,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00073,2008,non_wildlife_serious,engine,departure,4,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00073,2008,non_wildlife_serious,engine,departure,4,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00074,2008,non_wildlife_serious,wing_rotor,departure,2,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection
+20080118X00075,2008,non_wildlife_serious,engine,departure,1,UNKNOWN,SUBS,0.1,non-wildlife serious direct text,wide component-phase-mass projection

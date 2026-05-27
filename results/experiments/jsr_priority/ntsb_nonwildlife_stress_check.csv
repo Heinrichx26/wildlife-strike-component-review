@@ -1,0 +1,9 @@
+﻿specification,external_set,budget_share,selected_cell_count,external_records,external_records_in_selected_cells,external_selected_share,nwsd_reference_share,cell_odds_ratio
+strict component-phase-size-mass cell types,wildlife serious direct text,0.05,51,1045,103,0.09856459330143541,0.009369033346654234,11.606632661075396
+strict component-phase-size-mass cell types,non-wildlife serious direct text,0.05,51,23149,0,0.0,0.009369033346654234,0.0022828408629068713
+strict component-phase-size-mass cell types,wildlife serious direct text,0.1,102,1045,208,0.19904306220095694,0.021764871305300238,11.187581419775167
+strict component-phase-size-mass cell types,non-wildlife serious direct text,0.1,102,23149,0,0.0,0.021764871305300238,0.0009706068555703435
+wide component-phase-mass projection,wildlife serious direct text,0.05,152,1045,998,0.9550239234449761,0.4683258588280568,23.864451156096646
+wide component-phase-mass projection,non-wildlife serious direct text,0.05,152,23149,21629,0.9343384163462785,0.4683258588280568,16.149424365642602
+wide component-phase-mass projection,wildlife serious direct text,0.1,213,1045,1021,0.9770334928229665,0.755872296967275,13.466209897265347
+wide component-phase-mass projection,non-wildlife serious direct text,0.1,213,23149,22515,0.9726122078707503,0.755872296967275,11.461014506589043

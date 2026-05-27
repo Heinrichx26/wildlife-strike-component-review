@@ -25,6 +25,14 @@ SCORE_SPECS = {
         "keys": ["species_id", "phase_bucket", "size"],
         "kind": "rate",
     },
+    "species_size_hazard_rate": {
+        "keys": ["species_id", "size"],
+        "kind": "rate",
+    },
+    "species_size_component_hazard_rate": {
+        "keys": ["species_id", "size", "component"],
+        "kind": "rate",
+    },
     "component_only_rate": {
         "keys": ["component"],
         "kind": "rate",
@@ -324,7 +332,7 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
         "",
         "## Result interpretation",
         "",
-        "- Component transition ranking is evaluated against fixed-budget alternatives across rolling future years.",
+        "- Component transition ranking is evaluated against fixed-capacity alternatives across rolling future years.",
         "- Counterfactual sets summarize damage, cost, and downtime missed by frequency-based review under the same capacity.",
         "- Rolling validation keeps training and test years separated before selected sets are evaluated.",
     ])

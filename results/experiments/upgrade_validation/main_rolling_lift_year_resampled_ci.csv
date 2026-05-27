@@ -1,10 +1,11 @@
-﻿budget_share,review_rule,score,num_test_years,pooled_lift,lift_ci_low,lift_ci_high,pooled_capture,pooled_hit_rate
-0.05,Categorical gradient boosting,categorical_gradient_boosting,31,6.8718377456560935,6.2598986902706795,7.450736606500601,0.3439457202505219,0.5769735882095433
+budget_share,review_rule,score,num_test_years,pooled_lift,lift_ci_low,lift_ci_high,pooled_capture,pooled_hit_rate
+0.05,Categorical gradient boosting,categorical_gradient_boosting,31,6.8718377456560935,6.25989869027068,7.450736606500601,0.3439457202505219,0.5769735882095433
 0.05,Regularized logistic,regularized_categorical_logistic,31,6.7336710535014,6.148348796851407,7.292301610908079,0.3370302713987474,0.5653728294177732
 0.05,Hierarchical,hierarchical_component_transition,31,6.450386,5.862522,7.010387,0.322851,0.541588
 0.05,Smoothed,component_phase_size_mass_rate,31,6.163625,5.546563,6.747332,0.308499,0.517511
 0.05,Exposure weighted,component_transition_airport_exposure,31,5.449329,5.043886,5.84381,0.272747,0.457537
-0.05,Species-phase-size,species_phase_size_rate,31,5.557082,5.121971,5.968278,0.27814,0.466584
+0.05,Species-size-component hazard,species_size_component_hazard_rate,31,5.943774681371735,5.4636140465478915,6.377411643655643,0.2974947807933194,0.4990515102874653
+0.05,Species-size hazard,species_size_hazard_rate,31,5.621386,5.161883,6.056332,0.281359,0.471983
 0.05,Frequency,component_phase_size_mass_frequency,31,0.453604,0.323484,0.5956,0.022704,0.038086
 0.05,Component-only,component_only_rate,31,3.10484,2.894313,3.304878,0.155402,0.260689
 0.1,Categorical gradient boosting,categorical_gradient_boosting,31,5.311849717076258,4.95791402577037,5.640715261217354,0.5314022268615171,0.4459937944880452
@@ -12,6 +13,7 @@
 0.1,Hierarchical,hierarchical_component_transition,31,5.036649,4.685183,5.355907,0.503871,0.422887
 0.1,Smoothed,component_phase_size_mass_rate,31,4.891441,4.554442,5.209435,0.489344,0.410695
 0.1,Exposure weighted,component_transition_airport_exposure,31,4.172354,3.855427,4.476821,0.417406,0.350319
-0.1,Species-phase-size,species_phase_size_rate,31,4.275826,4.01231,4.52788,0.427757,0.359007
+0.1,Species-size-component hazard,species_size_component_hazard_rate,31,4.474944273847269,4.199095488061657,4.725376883272488,0.4476774530271398,0.3757254973535316
+0.1,Species-size hazard,species_size_hazard_rate,31,4.329301,4.041222,4.58725,0.433107,0.363497
 0.1,Frequency,component_phase_size_mass_frequency,31,0.385629,0.279152,0.498775,0.038579,0.032378
 0.1,Component-only,component_only_rate,31,2.492457,2.3459,2.616388,0.249348,0.209272

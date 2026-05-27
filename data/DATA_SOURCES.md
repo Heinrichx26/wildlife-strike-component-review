@@ -32,7 +32,7 @@ Expected local file:
 
 - `data/raw/ntsb_avdata/avall/avall.mdb`
 
-External enrichment maps wildlife-related NTSB records to component-family cells. Dictionaries, mapping terms, sample records, bootstrap intervals, and audit summaries are under `results/experiments/transparency_checks/`.
+External consistency checks map wildlife-related NTSB records to component-family cells. Dictionaries, mapping terms, sample records, bootstrap intervals, and audit summaries are under `results/experiments/transparency_checks/`.
 
 ## FAA Service Difficulty Reporting system
 
@@ -42,14 +42,24 @@ Expected local folder:
 
 - `data/raw/faa_sdr/`
 
-The maintenance-text validation extracts wildlife-related Service Difficulty Reporting records from public records and maps component text to the same component families used for the wildlife strike review units. Summary files are under `results/experiments/safety_science/`.
+The maintenance-text validation extracts wildlife-related Service Difficulty Reporting records from public records and maps component text to the same component families used for the wildlife strike review units. Summary files are under `results/experiments/jsr_validation/`.
 
-## NOAA Global Hourly weather records
+## ASOS/METAR weather observations
 
-Source: https://www.ncei.noaa.gov/products/land-based-station/global-hourly
+Source: https://www.mesonet.agron.iastate.edu/request/download.phtml
 
 Expected local folder:
 
-- `data/raw/noaa_global_hourly/`
+- `data/raw/asos_metar/`
 
-The weather diagnostic uses complete matched airport-year files where available. It is reported as a small-sample control diagnostic, with summary files under `results/experiments/safety_science/`.
+The weather validation links report airport, date, and time to hourly ASOS/METAR observations for the high-report airport set. Summary files are under `results/experiments/jsr_priority/`.
+
+## GBIF occurrence records
+
+Source: https://techdocs.gbif.org/en/openapi/v1/occurrence
+
+Expected local folder:
+
+- `data/raw/gbif/`
+
+The ecological proxy aggregates public bird occurrence records to airport-month exposure values. Summary files are under `results/experiments/jsr_priority/`.

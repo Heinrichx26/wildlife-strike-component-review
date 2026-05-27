@@ -2,7 +2,7 @@
 
 ## Software
 
-The analysis scripts use Python 3.10 or later. Some optional benchmarks require third-party Python packages documented by the import statements in the scripts.
+The analysis scripts use Python 3.10 or later. Third-party Python packages are listed in `requirements.txt`.
 
 ## Recommended workflow
 
@@ -18,10 +18,15 @@ The analysis scripts use Python 3.10 or later. Some optional benchmarks require 
 - `results/experiments/upgrade_validation/negative_controls_aggregate.csv`
 - `results/experiments/upgrade_validation/main_rolling_lift_year_resampled_ci.csv`
 - `results/experiments/atads_exposure/atads_exposure_aggregate.csv`
-- `results/experiments/safety_science/atads_exposure_strata_aggregate.csv`
-- `results/experiments/safety_science/sdr_component_enrichment.csv`
-- `results/experiments/safety_science/sdr_component_profile.csv`
-- `results/experiments/safety_science/weather_smoke_aggregate.csv`
+- `results/experiments/jsr_validation/atads_exposure_strata_aggregate.csv`
+- `results/experiments/jsr_validation/sdr_component_enrichment.csv`
+- `results/experiments/jsr_validation/sdr_component_profile.csv`
+- `results/experiments/jsr_validation/weather_smoke_aggregate.csv`
+- `results/experiments/jsr_priority/budget_frontier_aggregate.csv`
+- `results/experiments/jsr_priority/asos_weather_aggregate.csv`
+- `results/experiments/jsr_priority/gbif_ecological_proxy_aggregate.csv`
+- `results/experiments/jsr_priority/ntsb_nonwildlife_stress_check.csv`
+- `results/experiments/jsr_priority/reporting_bias_strata_aggregate.csv`
 - `results/experiments/transparency_checks/ntsb_external_enrichment_sets.csv`
 - `results/experiments/transparency_checks/ntsb_stratified_audit_summary.csv`
 - `results/experiments/posterior_burden/full/posterior_burden_aggregate.csv`
