@@ -22,7 +22,16 @@ All data sources are public:
 
 Large raw exports are excluded from the repository. See `data/DATA_SOURCES.md` for source links, expected folders, and download notes.
 
-## Minimal reproduction sequence
+## Package smoke check
+
+The package smoke check does not require raw data. It verifies that the repository contains the expected code, data-source instructions, audit files, and summary results, and that manuscript or submission files are not present.
+
+```powershell
+python src/analysis/verify_replication_package.py
+python -m py_compile src/analysis/*.py src/data/*.py
+```
+
+## Full reproduction sequence
 
 After placing the raw data files in the expected local folders, run the following from the repository root:
 
@@ -38,7 +47,7 @@ python src/analysis/external_validation_transparency_checks.py --reps 500
 python src/analysis/posterior_burden_allocation.py
 ```
 
-For a quick pre-check:
+For data-dependent smoke checks after placing the raw files:
 
 ```powershell
 python src/analysis/smoke_upgrade_validation.py

@@ -6,10 +6,11 @@ The analysis scripts use Python 3.10 or later. Third-party Python packages are l
 
 ## Recommended workflow
 
-1. Download and place raw public data files according to `data/DATA_SOURCES.md`.
-2. Run smoke checks before full runs.
-3. Run the full analysis scripts.
-4. Compare generated CSV outputs with the summary CSV files in `results/`.
+1. Run `python src/analysis/verify_replication_package.py` to check the repository contents.
+2. Download and place raw public data files according to `data/DATA_SOURCES.md`.
+3. Run the data-dependent smoke checks listed in `README.md`.
+4. Run the full analysis scripts.
+5. Compare generated CSV outputs with the summary CSV files in `results/`.
 
 ## Key result files
 
