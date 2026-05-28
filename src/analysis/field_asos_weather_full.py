@@ -17,8 +17,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from atads_exposure_validation import normalized_airport  # noqa: E402
 from rolling_faa_wildlife_component_review import SCORE_SPECS, key_for, score_records, train_scores  # noqa: E402
-from jsr_priority_experiments import aggregate_yearly, selected_metrics, write_csv  # noqa: E402
-from jsr_weather_smoke import parse_incident_datetime  # noqa: E402
+from field_reliability_experiments import aggregate_yearly, selected_metrics, write_csv  # noqa: E402
+from field_weather_smoke import parse_incident_datetime  # noqa: E402
 from smoke_faa_wildlife import enrich, load_rows, text  # noqa: E402
 from wildlife_component_data import component_rows  # noqa: E402
 
@@ -38,7 +38,7 @@ IEM_URL = (
 
 def result_dir(smoke: bool) -> Path:
     base = PROJECT_ROOT / "results" / ("smoke_tests" if smoke else "experiments")
-    return base / "jsr_priority"
+    return base / "field_reliability"
 
 
 def read_top_airports(limit: int | None = None) -> list[str]:
@@ -321,7 +321,7 @@ def run(smoke: bool, workers: int, refresh: bool, skip_download: bool, airport_l
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run full ASOS/METAR weather validation for the review-allocation study.")
+    parser = argparse.ArgumentParser(description="Run full ASOS/METAR weather validation for the screening study.")
     parser.add_argument("--smoke", action="store_true")
     parser.add_argument("--workers", type=int, default=6)
     parser.add_argument("--refresh", action="store_true")
@@ -333,3 +333,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

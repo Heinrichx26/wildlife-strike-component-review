@@ -24,7 +24,7 @@ from rolling_faa_wildlife_component_review import (  # noqa: E402
     score_records,
     train_scores,
 )
-from jsr_weather_smoke import (  # noqa: E402
+from field_weather_smoke import (  # noqa: E402
     ISD_HISTORY,
     NOAA_ACCESS_URL,
     download_weather,
@@ -66,7 +66,7 @@ GBIF_AVES_TAXON_KEY = "212"
 
 def result_dir(smoke: bool) -> Path:
     base = PROJECT_ROOT / "results" / ("smoke_tests" if smoke else "experiments")
-    return base / "jsr_priority"
+    return base / "field_reliability"
 
 
 def write_csv(path: Path, rows: list[dict]) -> None:
@@ -852,7 +852,7 @@ def run(smoke: bool, cache_only_weather: bool) -> None:
     write_csv(out_dir / "gbif_ecological_proxy_coverage.csv", gbif_coverage)
 
     report_lines = [
-        "# JSR priority experiments",
+        "# Field reliability validation experiments",
         "",
         "## NTSB non-wildlife stress check",
         pd.DataFrame(ntsb_summary).to_markdown(index=False),
@@ -877,7 +877,7 @@ def run(smoke: bool, cache_only_weather: bool) -> None:
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Run priority validation experiments for the safety assurance allocation study.")
+    parser = argparse.ArgumentParser(description="Run field reliability validation experiments for the fixed-capacity component screening study.")
     parser.add_argument("--smoke", action="store_true", help="Run small checks before full experiments.")
     parser.add_argument("--cache-only-weather", action="store_true", help="Do not download new ASOS/METAR weather files.")
     args = parser.parse_args()
@@ -886,3 +886,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

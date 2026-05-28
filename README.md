@@ -1,6 +1,6 @@
-﻿# Wildlife strike component assurance allocation
+# Wildlife strike component reliability screening
 
-This repository contains only replication materials for the wildlife-strike component assurance allocation study: code, public-data instructions, and summary results.
+This repository contains only replication materials for the wildlife-strike component reliability screening study: code, public-data instructions, and summary results.
 
 ## Repository structure
 
@@ -39,10 +39,10 @@ After placing the raw data files in the expected local folders, run the followin
 python src/analysis/rolling_faa_wildlife_component_review.py
 python src/analysis/smoke_upgrade_validation.py --full
 python src/analysis/atads_exposure_validation.py
-python src/analysis/jsr_atads_strata.py
-python src/analysis/jsr_sdr_validation.py
-python src/analysis/jsr_priority_experiments.py
-python src/analysis/jsr_asos_weather_full.py
+python src/analysis/field_atads_strata.py
+python src/analysis/field_sdr_validation.py
+python src/analysis/field_reliability_experiments.py
+python src/analysis/field_asos_weather_full.py
 python src/analysis/external_validation_transparency_checks.py --reps 500
 python src/analysis/posterior_burden_allocation.py
 ```
@@ -51,7 +51,7 @@ For data-dependent smoke checks after placing the raw files:
 
 ```powershell
 python src/analysis/smoke_upgrade_validation.py
-python src/analysis/jsr_priority_experiments.py --smoke
+python src/analysis/field_reliability_experiments.py --smoke
 python src/analysis/external_validation_transparency_checks.py --smoke --reps 50
 python src/analysis/posterior_burden_allocation.py --smoke
 ```
@@ -63,7 +63,6 @@ python src/analysis/posterior_burden_allocation.py --smoke
 - `results/experiments/transparency_checks/ntsb_stratified_audit_records.csv`
 - `results/experiments/transparency_checks/ntsb_stratified_audit_summary.csv`
 - `results/experiments/transparency_checks/ntsb_external_enrichment_sets.csv`
-- `results/experiments/jsr_priority/ntsb_matched_stress_check.csv`
+- `results/experiments/field_reliability/ntsb_matched_stress_check.csv`
 
-Main summary results are in `results/rolling_review/faa_wildlife/`, `results/experiments/upgrade_validation/`, `results/experiments/atads_exposure/`, `results/experiments/jsr_validation/`, and `results/experiments/jsr_priority/`. The rolling aggregate files include the compact hierarchical rule, expanded-feature comparison rules, historical-frequency controls, and the species-size and species-size-component wildlife-domain rules.
-
+Main summary results are in `results/rolling_review/faa_wildlife/`, `results/experiments/upgrade_validation/`, `results/experiments/atads_exposure/`, `results/experiments/field_validation/`, and `results/experiments/field_reliability/`. The rolling aggregate files include the compact hierarchical rule, expanded-feature comparison rules, historical-frequency controls, and the species-size and species-size-component wildlife-domain rules.

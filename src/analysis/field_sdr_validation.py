@@ -18,7 +18,7 @@ from wildlife_component_data import component_rows  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 SDR_DIR = PROJECT_ROOT / "data" / "raw" / "faa_sdr"
-RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "jsr_validation"
+RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "field_validation"
 
 TEXT_FIELDS = [
     "PartName",
@@ -239,3 +239,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

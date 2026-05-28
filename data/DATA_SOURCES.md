@@ -42,7 +42,7 @@ Expected local folder:
 
 - `data/raw/faa_sdr/`
 
-The maintenance-text validation extracts wildlife-related Service Difficulty Reporting records from public records and maps component text to the same component families used for the wildlife strike review units. Summary files are under `results/experiments/jsr_validation/`.
+The maintenance-text validation extracts wildlife-related Service Difficulty Reporting records from public records and maps component text to the same component families used for the wildlife strike component units. Summary files are under `results/experiments/field_validation/`.
 
 ## ASOS/METAR weather observations
 
@@ -52,7 +52,7 @@ Expected local folder:
 
 - `data/raw/asos_metar/`
 
-The weather validation links report airport, date, and time to hourly ASOS/METAR observations for the high-report airport set. Summary files are under `results/experiments/jsr_priority/`.
+The weather validation links report airport, date, and time to hourly ASOS/METAR observations for the high-report airport set. Summary files are under `results/experiments/field_reliability/`.
 
 ## GBIF occurrence records
 
@@ -62,4 +62,4 @@ Expected local folder:
 
 - `data/raw/gbif/`
 
-The ecological proxy aggregates public bird occurrence records to airport-month exposure values. Summary files are under `results/experiments/jsr_priority/`.
+The ecological proxy aggregates public bird occurrence records to airport-month exposure values. Summary files are under `results/experiments/field_reliability/`.

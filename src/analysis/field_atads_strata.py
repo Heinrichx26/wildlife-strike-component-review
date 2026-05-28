@@ -16,7 +16,7 @@ from wildlife_component_data import component_rows  # noqa: E402
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "jsr_validation"
+RESULT_DIR = PROJECT_ROOT / "results" / "experiments" / "field_validation"
 MAIN_SCORE = "component_phase_size_mass_rate"
 TARGET = "part_damage"
 
@@ -195,3 +195,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+

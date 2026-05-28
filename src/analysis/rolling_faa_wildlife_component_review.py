@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import math
@@ -269,11 +269,11 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
     lines = [
         "# FAA wildlife strike component review rolling validation",
         "",
-        "## Review setting",
+        "## Inspection setting",
         "",
         "- Data window: 1990-2025 records are used for the main rolling validation.",
         "- Validation design: the previous five years train each next-year selected set, with test years 1995-2025.",
-        "- Review budgets: the ranked list selects the highest-risk 5% or 10% of component-family units.",
+        "- Inspection capacities: the ranked list selects the highest-risk 5% or 10% of component-family units.",
         "- Primary target: part_damage indicates observed same-report component damage.",
         "- Supporting target: event_hard indicates event-level damage, cost, downtime, flight effect, injury, or fatality.",
         "",
@@ -302,7 +302,7 @@ def build_report(aggregate: list[dict], counter_summary: list[dict], added_examp
         "",
         "## Counterfactual review results",
         "",
-        "The table summarizes component-family units selected by the transition ranking and missed by the historical-frequency ranking under the same review budget.",
+        "The table summarizes component-family units selected by the transition ranking and missed by the historical-frequency ranking under the same inspection capacity.",
         "",
         "| Component | Phase | Size | Aircraft mass class | Added records | Component damage | Event consequence | Cost | AOS hours |",
         "|---|---|---|---|---:|---:|---:|---:|---:|",
